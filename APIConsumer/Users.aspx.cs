@@ -13,6 +13,7 @@ namespace APIConsumer
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //
             IEnumerable<User> users;
             HttpClient httpClient = new HttpClient();
             httpClient.BaseAddress=new Uri("https://localhost:44390/api/user");
